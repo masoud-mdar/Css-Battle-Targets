@@ -1,0 +1,27 @@
+
+body {
+    background: #E3516E;
+}
+.k1, .k2, .k3{
+    position:absolute;
+    width:100px;
+    height:100px;
+}
+.k1{
+    background:#51B5A9;
+    top:50px;
+    left:100px;
+    border-radius:100px 0 0 0
+}
+.k2{
+    background:#FADE8B;
+    top:50px;
+    left:200px;
+    border-radius:0 100px 0 0
+}
+.k3{
+    background:#F7F3D7;
+    top:150px;
+    left:100px;
+    border-radius:0 0 0 100px
+}
