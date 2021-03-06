@@ -1,0 +1,56 @@
+<div style="position: relative; background: #F5D6B4; width: 400px; height: 300px;">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+</div>
+<style>
+  body {
+    background:#F5D6B4;
+    margin:0;
+  }
+  .a,.b,.c{
+    position:absolute;
+    width:65px;
+    height:65px;
+    border: 20px solid #D86F45;
+    border-radius:50%;
+    
+  }
+  .a{
+    left:60px;
+    border-top-color:transparent;
+    border-right-color:transparent;
+    transform:rotate(-45deg);
+    top:99px;
+  }
+  .b{
+    left:145px;
+    border-bottom-color:transparent;
+    border-right-color:transparent;
+    transform:rotate(45deg);top:100px;
+  }
+  .c{
+    right:65px;
+    border-top-color:transparent;
+    border-right-color:transparent;
+    transform:rotate(-45deg);
+    top:99px;
+  }
+  .d,.e{
+    background:#D86F45;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    position:absolute;
+  }
+  .d{
+    top:140px;
+    left:60px;
+  }
+  .e{
+    top:140px;
+    right:65px;
+  }
+</style>
