@@ -1,0 +1,31 @@
+body{
+    background:#09042A;
+}
+.a {
+    position:absolute;
+    top:75px;
+    left:75px;
+    width: 150px;
+    height: 150px;
+    background: #7B3F61;
+    border-radius:50%;
+}
+.b {
+    position:absolute;
+    top:75px;
+    right:75px;
+    width: 150px;
+    height: 150px;
+    background: #E78481;
+    border-radius:50%;
+}
+.c {
+    position:absolute;
+    top:113px;
+    right:158px;
+    width: 85px;
+    height: 75px;
+    background: #09042A;
+    border-radius:150px 0;
+    transform:rotate(-49deg)
+}
