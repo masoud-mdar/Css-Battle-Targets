@@ -1,0 +1,54 @@
+
+body,.c,.d,.e,.f,.g,.h{
+    background: #62306D;
+}
+.a,.b,.c,.d,.e,.f,.g,.h{
+    position:absolute;
+}
+.a,.b{
+    height:100;
+    top:100;
+}
+.a{
+    background:#F7EC7D;
+    width:140;
+    left:100;
+}
+.b{
+    background:#E38F66;
+    width:60;
+    left:240;
+}
+.c,.d,.e,.f,.g,.h{
+    width:37;
+    height:37;
+    border-radius:50%;
+}
+.c{
+    top:83;
+    left:83;
+}
+.d{
+    top:180;
+    left:83;
+    
+}
+.e{
+    top:83;
+    left:280;
+}
+.f{
+    top:180;
+    left:280;
+}
+.g,.h{
+    width:21;
+    height:21;
+    left:230
+}
+.g{
+    top:89;
+}
+.h{
+    top:190;
+}
