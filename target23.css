@@ -1,0 +1,23 @@
+
+body{
+    background: #F3AC3C;
+}
+.a,.b,.c{
+    position:absolute;
+    width:50%;
+    height:50%;
+}
+.a{
+    height:200;
+    background:#1A4341;
+    top:50;
+    left:100;
+}
+.b,.c{
+    background:#998235;
+    bottom:0;
+}
+.c{
+    background:#F3AC3C;
+    right:0;
+}
