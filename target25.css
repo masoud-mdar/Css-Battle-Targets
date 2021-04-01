@@ -1,0 +1,33 @@
+body {
+    background: #998235;
+}
+.a,.b{
+    position:absolute;
+    background:#1A4341;
+    width:80;
+    height:100;
+    border-radius:0 50px 0 50px;
+}
+.a{
+    top:60;
+    left:110
+}
+.b{
+    border-radius:50px 0 50px 0;
+    top:140;
+    left:210
+}
+.c,.d{
+    position:absolute;
+    background:#F3AC3C;
+    width:80;
+    height:60;
+    border-radius:50px 0 50px 0;
+    top:60;
+    left:210
+}
+.d{
+    border-radius:0 50px 0 50px;
+    top:180;
+    left:110
+}
